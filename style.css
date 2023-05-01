@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@1,300&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap'); */
 *{
     margin: 0;
     padding: 0;
@@ -23,4 +25,43 @@
 .container{
     display: flex;
     font-family: 'Nunito', sans-serif;
+}
+.infoContainer{
+    background-color: aqua;
+    height: 54vh;
+    width: 80vw;
+    margin: 74px auto; 
+    display: flex;
+    justify-content: space-around;
+}
+.devInfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.hello{
+    font-size: 28px;
+}
+.name{
+    font-size: 24px;
+}
+.about{
+    font-size: 19px;
+    font-family: 'Source Code Pro', monospace;
+}
+.buttons{
+    margin-top: 16px;
+}
+.buttons button{
+    padding: 12px 8px;
+    color: white;
+    font-size: 16px;
+    border-radius: 20px;
+    font-weight: bold;
+    border: none;
+    background-color: rgb(158, 158, 230);
+
+}
+.devPic img{
+    height: 54vh;
 }
