@@ -6,7 +6,7 @@
     padding: 0;
 }
 .sidebar{
-    background-color: red;
+    background-color: grey;
     width: 15vw;
     height: 100vh;
 }
@@ -18,8 +18,12 @@
     font-size: 18px;
     padding: 20px;
 }
+.sidebar nav li a{
+    list-style: none;
+    color: black;
+}
 .main{
-    background-color: yellow;
+    /* background-color: yellow; */
     width: 90vw;
 }
 .container{
@@ -27,7 +31,7 @@
     font-family: 'Nunito', sans-serif;
 }
 .infoContainer{
-    background-color: aqua;
+    background-color: whitesmoke;
     height: 54vh;
     width: 80vw;
     margin: 74px auto; 
@@ -48,6 +52,10 @@
 .about{
     font-size: 19px;
     font-family: 'Source Code Pro', monospace;
+}
+.moreabout{
+    margin-top: 7px;
+    margin-left: 3px;
 }
 .buttons{
     margin-top: 16px;
